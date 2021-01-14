@@ -12,6 +12,11 @@ var mongoose = require ("mongoose");
  var uristring =
  process.env.MONGODB_URI ||
  'mongodb://127.0.0.1:27017/data';
+ //mongodb uri
+ var cloudMongoUri = 'mongodb+srv://root:root1234@cluster0.bocsx.mongodb.net/patientdb?retryWrites=true&w=majority'
+ uriString = cloudMongoUri;
+ 
+
 
  //setting up the connection to mongDB
 
